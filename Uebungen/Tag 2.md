@@ -40,3 +40,9 @@
 | 3 | Account.withdraw(double) | Man kann nicht mehr Geld von Konto abheben, als vorhanden ist | Es wird ein Fehler ausgegeben |
 | 4 | ExchangeRateOkhttp.getExchangeRate() | Der richtige Wechselkurs zwischen zwei Währungen wird zurückgegeben | Die API wird aufgerufen und das Resultat wird ohne Fehler zurückgegeben |
 | 5 | Bank.getAccount(int) | Man kann ein Konto mittels einer Nummer finden | Das richtige Konto wird zurückgegeben |
+
+## Code Verbesserungen
+- Es wird var verwendet, anstatt einen definierten Type anzugeben, das sollte geändert weden
+- Das Enum wird auch im Main File deklariert, es sollte in ein eigenes File
+- Die Felder Bank und Scanner in Counter können final sein
+- Anstatt mehrmals hintereinander System.out.printLn() aufzurufen, um über mehrere Zeilen zu schreiben könnte man auch \n verwenden
