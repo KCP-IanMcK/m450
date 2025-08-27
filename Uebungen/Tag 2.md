@@ -1,4 +1,5 @@
 # Übung 1
+## Abstrakte Testfälle
 |Nr |        Testfall         | Erwartetes Ergebnis|
 |---|-------------------------|--------------------|
 | 1 |      Preis < 15'000     | Rabatt = 0%        |
@@ -6,6 +7,7 @@
 | 3 |20'000 <= Preis < 25'0000| Rabatt = 7%        |
 | 4 |    25'000 <= Preis      | Rabatt = 8.5%      |
 
+## Konkrete Testfälle
 |Nr | Testfall                | Erwartetes Ergebnis |
 |---|-------------------------|---------------------|
 | 1 | Preis = 14'999          | Preis = 14'999      |
