@@ -30,6 +30,13 @@
 | 2 | Man kann alle Konten ansehen | Bei Eingabe von "a" werden alle Konten angezeigt | Alle Konten werden angezeigt | Funktioniert |
 | 3 | Man kann den Wechselkurs abfragen | Bei Eingabe von "w" (und den Währungen) wird der Wechselkurs angezeigt | Der Wechselkurs wird angezeigt | Funktioniert |
 | 4 | Man kann das Programm beenden | Bei Eingabe von "q" wird das Programm beendet | Das Programm wird beendet | Funktioniert |
-| 5 | Man kann ein Konto bearbeiten | Bei Eingabe von "1" wird das entsprechende Konto angezeigt und man verschiedene Bearbeitungsoptionen | Das Konto wird angezeigt und die Optionen erscheinen |
+| 5 | Man kann ein Konto bearbeiten | Bei Eingabe von "1" wird das entsprechende Konto angezeigt und man hat verschiedene Bearbeitungsoptionen | Das Konto wird angezeigt und die Optionen erscheinen | Funktioniert |
 
 ## Whitebox Testing
+|Nr | Methode | Beschreibung | Erwartetes Resultat |
+|---|---------|--------------|---------------------|
+| 1 | Account.deposit(double) | Man kann einem Konto einen Betrag gutschreiben | Der angegebene Betrag wird dem Konto hinzugefügt |
+| 2 | Account.withdraw(double) | Man kann einen Betrag von einem Konto abheben, sofern genug Geld vorhanden ist | Der angegebene Betrag wird vom Konto abgezogen |
+| 3 | Account.withdra(double) | Man kann nicht mehr Geld von Konto abheben, als vorhanden ist | Es wird ein Fehler ausgegeben |
+| 4 | ExchangeRateOkhttp.getExchangeRate() | Der richtige Wechselkurs zwischen zwei Währungen wird zurückgegeben | Die API wird aufgerufen und das Resultat wird ohne Fehler zurückgegeben |
+| 5 | Bank.getAccount(int) | Man kann ein Konto mittels einer Nummer finden | Das richtige Konto wird zurückgegeben |
