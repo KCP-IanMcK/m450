@@ -163,6 +163,4 @@ Klassen:
     - SalaryAccount
     - BankUtils
     - PromoYouthSavingAccount
-Die Bank hat mehrere Accounts, welche verschiedene Konten (Savings | PromoYouthSavings, Salary) haben. Der Account hat auch verschiedene Buchungen.
-
-# Aufgabe 4
+Die Bank hat mehrere verschiedene Konten (Savings | PromoYouthSavings, Salary), die aus der abstrakten Account Klasse hervorgehen. Zu jedem Konto gibt es verschiedene Buchungen.
