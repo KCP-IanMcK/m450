@@ -18,7 +18,9 @@ void test() {
   assertTrue(true);
   assertFalse(false);
   assertNull(null);
-  assertThrows(Exception.class, () -> throw new Exception());
+  assertThrows(Exception.class, () -> {
+  throw new Exception("");
+  });
 }
 ```
 ## @BeforeEach, @BeforeAll
