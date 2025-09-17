@@ -2,8 +2,8 @@
 ## JMeter
 Ich habe JMeter verwendet, um den Load-Test zu machen.
 Dazu habe ich eine Thread-Group erstellt mit 50 Usern.
-!(https://github.com/KCP-IanMcK/m450/blob/main/Uebungen/Tag%205%20%C3%9Cbungen/group.png)
+![](https://github.com/KCP-IanMcK/m450/blob/main/Uebungen/Tag%205%20%C3%9Cbungen/group.png)
 Danach habe ich ein HTTP Request Sample hinzugefügt. Es ist ein get Request mit dem Pfad: http://localhost:8081/students.
-!(https://github.com/KCP-IanMcK/m450/blob/main/Uebungen/Tag%205%20%C3%9Cbungen/http.png)
+![](https://github.com/KCP-IanMcK/m450/blob/main/Uebungen/Tag%205%20%C3%9Cbungen/http.png)
 Danach musste ich noch ein Listener hinzufügen, ich habe den Result Tree verwendet.
-!(https://github.com/KCP-IanMcK/m450/blob/main/Uebungen/Tag%205%20%C3%9Cbungen/result.png)
+![](https://github.com/KCP-IanMcK/m450/blob/main/Uebungen/Tag%205%20%C3%9Cbungen/result.png)
